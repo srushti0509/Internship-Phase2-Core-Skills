@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Skills Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Web Development Learning Hub</h1>
+        <p>Master essential concepts and skills</p>
+    </header>
+
+    <section class="progress-section">
+        <h2>My Learning Progress</h2>
+        <p id="progress">Completed: 0 / 3</p>
+    </section>
+
+    <main class="cards">
+
+        <div class="card">
+            <h2>HTML Fundamentals</h2>
+            <p>Learn webpage structure, headings, paragraphs,
+            links, lists and forms.</p>
+            <button onclick="completeTask(0)">Mark Completed</button>
+            <p id="status0">Not completed</p>
+        </div>
+
+        <div class="card">
+            <h2>CSS Fundamentals</h2>
+            <p>Learn colors, backgrounds, spacing,
+            borders and webpage layouts.</p>
+            <button onclick="completeTask(1)">Mark Completed</button>
+            <p id="status1">Not completed</p>
+        </div>
+
+        <div class="card">
+            <h2>JavaScript Fundamentals</h2>
+            <p>Learn variables, functions, events
+            and basic interactivity.</p>
+            <button onclick="completeTask(2)">Mark Completed</button>
+            <p id="status2">Not completed</p>
+        </div>
+
+    </main>
+
+    <section class="quiz">
+        <h2>Quick Quiz</h2>
+        <p>Which language is used to style a webpage?</p>
+
+        <button onclick="checkAnswer('HTML')">HTML</button>
+        <button onclick="checkAnswer('CSS')">CSS</button>
+        <button onclick="checkAnswer('Java')">Java</button>
+
+        <p id="quiz-result"></p>
+    </section>
+
+    <footer>
+        <p>Internship Phase 2 | Core Skills Practice</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

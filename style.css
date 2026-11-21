@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #3457d5;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.progress-section {
+    text-align: center;
+    margin: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #d5dced;
+    text-align: center;
+}
+
+.card h2 {
+    color: #3457d5;
+}
+
+button {
+    background-color: #3457d5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #203da8;
+}
+
+.quiz {
+    background: white;
+    margin: 30px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
